@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+nav{
+    height: 5rem;
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    justify-content: center;
+    font-size: 3rem;
+    color: black;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#my-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem;
+    padding-bottom: 5rem;
+}
+
+#modal{
+    display: none;
+    height:500px;
+    width: 500px;
+    position: absolute;
+    top:4em;
+    left: 30em;
+}
+footer{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top:2rem ;
+}
+
+@media (max-width:600px) {
+    span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
